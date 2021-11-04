@@ -1,0 +1,23 @@
+/*language */
+.list-unstyled { 
+    height: 40px;
+    width: 100px;
+    
+}
+.list-unstyled li { padding: 5px 10px; z-index: 2; }
+.list-unstyled li:not(.init) { float: left; width: 100px; display: none; border-radius: 5px; }
+.list-unstyled li:not(.init):hover, ul li.selected:not(.init) { background-color: var(--color-primary); }
+.list-unstyled li a:hover{ text-decoration: none; color: #fff;}
+.list-unstyled li a {text-decoration: none; display: block; }
+li.init { cursor: pointer; }
+
+a#submit { z-index: 1; }
+
+
+/* Pagination*/
+.disabled-link {
+    pointer-events: none;
+    color: #ccc;
+  }
+
+  
